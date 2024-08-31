@@ -1,0 +1,97 @@
+/* Landing Page Style */
+.title_box h1{
+    font-size: 100;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: white;
+
+}
+
+.button_group {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    button{
+        font-size: 40px;
+        background-color: white;
+    }
+}
+
+.background{
+    height: 100%;
+    background: linear-gradient(white 50%, #500000 50%);
+}
+
+/* Technical Portfolio Page Style */
+.TP_Title h1{
+    font-size: 60;
+    text-align: center;
+    position: absolute;
+    line-height: 200px;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: white;
+
+}
+
+.TP_buttons {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+
+    button{
+        font-size: 40px;
+        background-color: white;
+    }
+}
+
+.TP_background{
+    height: 100%;
+    background: linear-gradient(to right,white 50%, #500000 50%);
+}
+
+.TP_PP {
+    font-size: 20;
+    text-align: center;
+    position: absolute;
+    line-height: 0%px;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 100px;
+    border: 5px solid black;
+    background-color: white;
+
+}
+
+.TP_Desc {
+    font-size: 20;
+    text-align: left;
+    position: absolute;
+    line-height: 0%px;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 320px;
+    border: 5px solid black;
+    background-color: white;
+
+}
