@@ -1,0 +1,120 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+.indexBack{
+    background-image: url(images/galaxy.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.portfolioBack{
+    background-image:url(images/ship.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container{
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    button{
+        font-size: 35px;
+        width: 250px;
+        background-color: white;
+        text-align: center;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
+
+.title_box{
+    font-weight: bold;
+    background-color: white;
+    font-size: 60px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.button{
+    margin: 10px;
+}
+
+
+.TP_Desc_Cont{
+    .TP_PP{
+        font-size: 28px;
+    }
+    .TP_Desc{
+        font-size: 15px;
+        width: 79%;
+        text-align: left;
+    }
+    position: absolute;
+    left: 80%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    height: 600px;
+    width: 600px;
+    transform: translate(-50%,-50%);
+}
+
+.TP_Title{
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    top: 55%;
+    left: 15%;
+    translate: transform(-50%,-50%);
+}
+
+.TP_Buttons{
+    button{
+        background-color: white;
+        border: none;
+        cursor:pointer;
+        font-size: 25px;
+
+    }
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    top: 50%;
+    left: 10%;
+    translate: transform(-50%,-50%);
+}
